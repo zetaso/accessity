@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# user defined
+accessibility/
+area/
+cache/
+cd/
+network/
