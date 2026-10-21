@@ -1,0 +1,9 @@
+numpy
+pandas
+geopandas
+shapely
+h3
+networkx
+osmnx
+r5py
+pyrosm

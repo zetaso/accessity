@@ -222,7 +222,12 @@ __marimo__/
 
 # user defined
 accessibility/
-area/
 cache/
 cd/
+area/
 network/
+hexagons/
+points/
+pois/
+blocks/
+chile-latest.osm.pbf
