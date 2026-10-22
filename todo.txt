@@ -1,0 +1,42 @@
+h3-9 h3-10
+
+codigo reproducible
+
+opciones:
+    - cabiar origenes destino
+    - hora del día
+    - modo (caminata, transporte público, auto)
+        transporte público: gtfs, con potencial cambio a gtfsRT
+    - destinos: OSM + (destinos EOD clusterizados?)
+        aplicar factor de expansión
+        (si su factor de expansion es 100, entonces ahi hay 100 trabajos)
+
+    - origenes: todas las celdas
+
+metodología:
+    - r5r RStudio
+    - r5py .pbf la red
+    - gtfstools (R) -> gtfs-kit, partridge
+    - complementar con google maps (configurar key)
+        (llamado a futuro ?)
+        esto genera una matriz macrozonal de congestión
+
+entregable:
+    - repositorio código replicable
+    - documentación
+
+
+
+1. flujo libre privado
+2. caminata
+3. transporte publico gtfs
+4. tiempos de viaje
+
+data prem (dem y otros pesos): https://github.com/RSGInc/ladot_analysis_dataprep
+
+
+observaciones:
+
+1. si, me surgió un límite al descargar redes grandes como la de la Región del Biobío, por lo que a traves de geofabrik descargué manualmente la de chile, a traves de código también
+2. no, las redes de de OpenStreetMap no traen parámetro de velocidad promedio, sólo la velocidad máxima, me confundí con la data que retornaba waze
+3. ...
