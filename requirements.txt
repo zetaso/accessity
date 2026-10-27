@@ -1,8 +1,10 @@
 numpy
 pandas
 geopandas
+pyarrow
 shapely
 h3
+h3pandas
 networkx
 osmnx
 r5py

@@ -231,5 +231,9 @@ points/
 pois/
 blocks/
 buildings/
-chile-latest.osm.pbf
-967_buildings.csv
+*.csv
+*.shp
+*.parquet
+*.json
+*.zip
+*.pbf
