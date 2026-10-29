@@ -230,10 +230,12 @@ hexagons/
 points/
 pois/
 blocks/
+*gtfs*/
 buildings/
 *.csv
 *.shp
 *.parquet
 *.json
+*.geojson
 *.zip
 *.pbf
