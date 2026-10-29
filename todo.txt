@@ -43,3 +43,4 @@ observaciones:
 3. gtfs si tiene una especificación de tipo de ruta en el routes.txt propiedad route_type (0: Tram, 1: Subway, 2: Rail, 3: Bus, etc)
 4. el gtfs biotren si tiene especificado el route_type en 2: Rail para sus dos rutas
 5. el valor por defecto de abordos al transporte público era max_public_transport_rides=8, se puede editar
+6. se requieren al menos 3920 samples para alcanzar una cuota de 80 samples por par macrozona-macrozona, ahora mismo alcanzan 61
